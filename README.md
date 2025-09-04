@@ -1,3 +1,25 @@
+## Admin Panel Setup
+
+1. Clone the project and install dependencies:
+   ```bash
+   git clone https://github.com/Harsh-16002/interior-designer.git
+   cd interior-designer
+   composer install
+   cp .env.example .env
+   php artisan key:generate
+
+2.Create a database in MySQL (e.g., interiordesigner).
+
+3.Import the sample database (contains dummy data including images):
+
+4.Run migrations and seed admin user: php artisan migrate:fresh --seed
+
+5 Access the Admin Panel at: http://127.0.0.1:8000/admin'
+
+6.Default Admin Login: Email: admin@example.com Password: password123
+
+7.Configure your own SMTP email and App Password in .env for OTP and email services.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
