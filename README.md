@@ -10,7 +10,7 @@
 
 2.Create a database in MySQL (e.g., interiordesigner).
 
-3.Import the sample database (contains dummy data including images):
+3.Import the sample database included in this project (contains dummy data including images): interiordesigner.sql
 
 4.Run migrations and seed admin user: php artisan migrate:fresh --seed
 
